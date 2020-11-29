@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity"
+        android:id="@+id/currentLayout">
+
+    <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/label"
+            android:textSize="85px"
+            />
+
+    <EditText
+            android:id="@+id/red_textfield"
+            android:layout_below="@+id/label"
+            android:hint="@string/textHint"
+            style="@style/editTextStyle"/>
+
+    <EditText
+            android:id="@+id/green_textfield"
+            android:layout_below="@+id/red_textfield"
+            android:hint="@string/textHint"
+            style="@style/editTextStyle"
+            />
+
+    <EditText
+            android:id="@+id/blue_textfield"
+            android:layout_below="@+id/green_textfield"
+            android:hint="@string/textHint"
+            style="@style/editTextStyle"/>
+
+</RelativeLayout>
+

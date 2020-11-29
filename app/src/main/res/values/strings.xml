@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab Task 3</string>
+
+    <string name="label"> Label </string>
+
+    <string name="textHint"> Enter an integer from 0 to 255 </string>
+</resources>
